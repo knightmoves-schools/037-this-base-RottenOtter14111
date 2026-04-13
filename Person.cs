@@ -5,14 +5,15 @@ public class Person : Taxable{
    private string lastName;
 
    public Person(string firstName, string lastName){
-      //Add your code here
+      this.firstName = firstName;
+      this.lastName = lastName;
    }
    public string FullName(){
       return $"{firstName} {lastName}";
    }
 
    public string LookUpId(){
-      return ""; //Add your code here
+      return "base.testTaxId";
    }
 }
 
