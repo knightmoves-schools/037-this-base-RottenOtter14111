@@ -13,7 +13,7 @@ public class Person : Taxable{
    }
 
    public string LookUpId(){
-      return "base.LookupTaxId()";
+      return base.LookupTaxId();
    }
 }
 
